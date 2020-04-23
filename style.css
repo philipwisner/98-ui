@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+nav {
+  height: 50px;
+  background: rgb(192, 192, 192);
+  text-align: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border: 5px solid rgb(233, 233, 233);
+}
+
+nav img {
+  height: 40px;
+}
+
+body {
+  background: rgb(233, 233, 233);
+}
+
+.login-container {
+  height: calc(100vh - 65px);
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-row span {
+  flex: 1 1 auto;
+  display: inline;
+  color: blue;
+}
